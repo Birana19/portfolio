@@ -1,0 +1,31 @@
+.about {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.7s ease;
+}
+
+.about.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.about-text {
+  max-width: 700px;
+  margin: 20px auto 60px;
+  text-align: center;
+  color: #9ca3af;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: center;
+}
+
+.skill-badge {
+  background: #1f2933;
+  padding: 8px 20px;
+  border-radius: 999px;
+  font-size: 14px;
+}

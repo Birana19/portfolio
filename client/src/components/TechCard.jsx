@@ -1,9 +1,9 @@
-import React from "react";
+import "./TechCard.css";
 
 const TechCard = ({ tech }) => {
   return (
-    <div className="bg-gray-800 px-4 py-2 rounded-lg shadow hover:scale-105 transition-transform duration-300">
-      <h4 className="font-medium text-gray-100">{tech}</h4>
+    <div className="tech-card">
+      <span>{tech}</span>
     </div>
   );
 };

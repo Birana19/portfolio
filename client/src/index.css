@@ -1,7 +1,87 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* GLOBAL */
 body {
-  @apply bg-gray-900 text-gray-100;
+  background-color: #111827; /* gray-900 */
+  color: #f3f4f6;           /* gray-100 */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* UTILITIES */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 80px 24px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-muted {
+  color: #9ca3af;
+}
+
+.heading-lg {
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+.heading-md {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.blue {
+  color: #3b82f6;
+}
+
+/* FLEX & GRID */
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.gap-8 {
+  gap: 32px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .grid-2,
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
 }
