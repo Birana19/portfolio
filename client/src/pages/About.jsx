@@ -17,11 +17,13 @@ function About() {
       <p className="about-text">{aboutData.paragraph}</p>
 
       <h3 className="heading-md text-center">Soft Skills</h3>
+      <br></br>
+      <br></br>
 
       <div className="skills">
         {softSkills.map((skill, i) => (
           <span key={i} className="skill-badge">
-            {skill}
+            {skill} <t></t> <t></t>
           </span>
         ))}
       </div>
