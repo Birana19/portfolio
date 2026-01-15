@@ -1,14 +1,30 @@
 export const techStacks = [
   {
     category: "Programming Languages",
-    items: ["C", "C++", "Java", "JavaScript", "Python", "PHP"]
+    items: [
+      { name: "C", icon: "SiC" },
+      { name: "C++", icon: "SiCplusplus" },
+      { name: "Java", icon: "FaJava" },
+      { name: "JavaScript", icon: "SiJavascript" },
+      { name: "Python", icon: "FaPython" },
+      { name: "PHP", icon: "FaPhp" }
+    ]
   },
   {
     category: "Frontend",
-    items: ["HTML5", "CSS3", "React.js", "Tailwind CSS"]
+    items: [
+      { name: "HTML5", icon: "FaHtml5" },
+      { name: "CSS3", icon: "FaCss3Alt" },
+      { name: "React.js", icon: "FaReact" },
+      { name: "Tailwind CSS", icon: "SiTailwindcss" }
+    ]
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express.js", "Java Servlets & JSP"]
+    items: [
+      { name: "Node.js", icon: "FaNodeJs" },
+      { name: "Express.js", icon: "SiExpress" },
+      { name: "Java Servlets & JSP", icon: "FaJava" }
+    ]
   }
 ];

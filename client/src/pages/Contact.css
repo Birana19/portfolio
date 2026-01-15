@@ -1,11 +1,48 @@
 .contact-grid {
   max-width: 1000px;
-  margin: auto;
+  margin: 40px auto 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 40px;
 }
 
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #e5e7eb;
+  font-size: 16px;
+}
+
+.contact-icon {
+  font-size: 18px;
+  color: #38bdf8;
+}
+
+/* Quote Box */
+.quote-box {
+  margin-top: 24px;
+  padding: 18px 20px;
+  border: 1px solid #374151;
+  border-radius: 12px;
+  background: rgba(31, 41, 55, 0.6);
+  text-align: center;
+}
+
+.quote-box p {
+  color: #d1d5db;
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+/* Responsive */
 @media (max-width: 768px) {
   .contact-grid {
     grid-template-columns: 1fr;
