@@ -2,6 +2,7 @@ import ContactForm from "../components/ContactForm";
 import "./Contact.css";
 import { FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 
+
 function Contact() {
   return (
     <section id="contact" className="section">
@@ -26,6 +27,17 @@ function Contact() {
           <div className="quote-box">
             <p>“Turning ideas into meaningful digital experiences.”</p>
           </div>
+
+           {/* Animated GIF */}
+          <div className="contact-animation">
+            <iframe
+              src="https://tenor.com/embed/24991316"
+              title="Coding animation"
+              frameBorder="0"
+              allowFullScreen
+            ></iframe>
+          </div>
+
         </div>
 
         {/* Right Side */}

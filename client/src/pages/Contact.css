@@ -48,3 +48,31 @@
     grid-template-columns: 1fr;
   }
 }
+
+.contact-animation {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-animation iframe {
+  width: 700px;      /* perfect size for portfolio */
+  height: 120px;
+  border-radius: 12px;
+  pointer-events: none; /* prevents clicking distractions */
+  animation: float 4s ease-in-out infinite;
+  box-shadow: 0 10px 30px rgba(100, 100, 255, 0.25);
+}
+
+/* soft floating animation */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
