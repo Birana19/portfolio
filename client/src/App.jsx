@@ -1,8 +1,9 @@
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import TechStack from "./pages/TechStack"; 
 import Projects from "./pages/Projects";
-import TechStack from "./pages/TechStack"; // optional
+import Articles from "./pages/Articles";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 
@@ -12,8 +13,9 @@ function App() {
       <Navbar />
       <Home />
       <About />
+      <TechStack /> 
       <Projects />
-      <TechStack /> {/* if you have this section */}
+      <Articles />
       <Contact />
       <Footer />
     </div>

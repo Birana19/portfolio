@@ -12,9 +12,29 @@
 .about-text {
   max-width: 700px;
   margin: 20px auto 60px;
+  padding: 24px 28px;
   text-align: center;
-  color: #9ca3af;
+  color: #d1d5db;
+
+  background: rgba(31, 41, 51, 0.9);
+  border-radius: 16px;
+
+  border: 1px solid rgba(56, 189, 248, 0.4);
+
+  box-shadow:
+    0 0 12px rgba(56, 189, 248, 0.25),
+    inset 0 0 8px rgba(56, 189, 248, 0.15);
+
+  transition: all 0.4s ease;
 }
+
+.about-text:hover {
+  box-shadow:
+    0 0 18px rgba(56, 189, 248, 0.45),
+    inset 0 0 10px rgba(56, 189, 248, 0.2);
+  transform: translateY(-2px);
+}
+
 
 /* Soft Skills */
 .skills {
@@ -33,12 +53,17 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
 }
 
 .skill-badge:hover {
   transform: scale(1.05);
+  background: #111827;
+  border-color: #38bdf8;
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.5);
 }
+
 
 .skill-icon {
   font-size: 14px;
