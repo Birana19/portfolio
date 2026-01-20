@@ -5,19 +5,21 @@ const Navbar = () => {
   const [active, setActive] = useState("home");
   const [scrolled, setScrolled] = useState(false);
 
+  const sections = ["home", "about", "projects", "articles", "contact"];
+
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
 
-      const sections = ["home", "about", "projects", "contact"];
       sections.forEach((id) => {
         const section = document.getElementById(id);
-        if (section) {
-          const top = section.offsetTop - 90;
-          const bottom = top + section.offsetHeight;
-          if (window.scrollY >= top && window.scrollY < bottom) {
-            setActive(id);
-          }
+        if (!section) return;
+
+        const top = section.offsetTop - 100;
+        const bottom = top + section.offsetHeight;
+
+        if (window.scrollY >= top && window.scrollY < bottom) {
+          setActive(id);
         }
       });
     };
@@ -25,8 +27,6 @@ const Navbar = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
-  const links = ["home", "about", "projects", "contact"];
 
   const handleClick = (e, id) => {
     e.preventDefault();
@@ -39,7 +39,7 @@ const Navbar = () => {
         <div className="logo">Birana</div>
 
         <ul className="nav-links">
-          {links.map((link) => (
+          {sections.map((link) => (
             <li key={link}>
               <a
                 href={`#${link}`}
