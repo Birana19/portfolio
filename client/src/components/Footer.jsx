@@ -13,7 +13,6 @@ const Footer = () => {
           <a href="https://www.linkedin.com/in/biranalini-mahinthan-b8273a312/" target="_blank" rel="noreferrer">
             LinkedIn
           </a>
-          <a href="birana1905@email.com">Email</a>
           <a href ="https://medium.com/@birana1905">Medium</a>
         </div>
       </div>

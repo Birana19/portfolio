@@ -1,10 +1,9 @@
-/* Tech Stack Section */
+
 #tech {
   padding: 80px 24px;
   text-align: center;
 }
 
-/* Section Title */
 #tech h2 {
   font-size: 2rem;
   font-weight: 700;
@@ -12,12 +11,10 @@
   color: #ffffff;
 }
 
-/* Each tech category block */
 .tech-category {
   margin-bottom: 40px;
 }
 
-/* Category title */
 #tech h3 {
   font-size: 1.25rem;
   font-weight: 600;
@@ -25,7 +22,6 @@
   color: #e5e5e5;
 }
 
-/* Tech cards container */
 .tech-cards {
   display: flex;
   flex-wrap: wrap;
@@ -33,7 +29,6 @@
   gap: 12px;
 }
 
-/* Tech badge (same feel as skill-badge) */
 .tech-badge {
   background: #1f2933;
   padding: 12px 18px;
@@ -50,7 +45,6 @@
   cursor: default;
 }
 
-/* Hover highlight (IDENTICAL vibe to soft skills) */
 .tech-badge:hover {
   transform: scale(1.05);
   background: #111827;
@@ -58,13 +52,11 @@
   box-shadow: 0 0 12px rgba(56, 189, 248, 0.5);
 }
 
-/* Tech icon */
 .tech-icon {
   font-size: 14px;
   color: #38bdf8;
 }
 
-/* Responsive tweaks */
 @media (max-width: 768px) {
   #tech {
     padding: 64px 16px;

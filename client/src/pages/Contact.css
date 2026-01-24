@@ -56,15 +56,14 @@
 }
 
 .contact-animation iframe {
-  width: 700px;      /* perfect size for portfolio */
+  width: 700px;      
   height: 120px;
   border-radius: 12px;
-  pointer-events: none; /* prevents clicking distractions */
+  pointer-events: none; 
   animation: float 4s ease-in-out infinite;
   box-shadow: 0 10px 30px rgba(100, 100, 255, 0.25);
 }
 
-/* soft floating animation */
 @keyframes float {
   0% {
     transform: translateY(0);

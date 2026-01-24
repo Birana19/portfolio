@@ -1,18 +1,16 @@
-/* RESET */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* GLOBAL */
 body {
-  background-color: #111827; /* gray-900 */
-  color: #f3f4f6;           /* gray-100 */
+  background-color: #111827; 
+  color: #f3f4f6;           
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* UTILITIES */
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -44,7 +42,6 @@ body {
   color: #3b82f6;
 }
 
-/* FLEX & GRID */
 .flex {
   display: flex;
 }
@@ -78,7 +75,6 @@ body {
   gap: 32px;
 }
 
-/* RESPONSIVE */
 @media (max-width: 768px) {
   .grid-2,
   .grid-3 {
