@@ -93,7 +93,7 @@ export const projects = [
 
   {
     title: "Cinderella",
-    description: "A fairy tale story book",
+    description: "A Fairy Tale Story Book",
     tech:["React", "HTML", "CSS", "JavaScript"],
     image:cinderellaImg,
     github: "https://github.com/Birana19/Cinderella"
