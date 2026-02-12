@@ -8,6 +8,7 @@ import keygenieImg from "../assets/keygenie.png";
 import coreHrImg from "../assets/corehr.jpg";
 import autohireImg from "../assets/autohire.jpg";
 import parkbayImg from "../assets/parkbay.jpg";
+import cinderellaImg from "../assets/cinderella.png";
 
 export const projects = [
    {
@@ -88,6 +89,14 @@ export const projects = [
     tech: ["Figma"],
     image: chapterlyImg,
     github: "https://github.com/Birana19/Chapterly_Redesigned"
+  },
+
+  {
+    title: "Cinderella",
+    description: "A fairy tale story book",
+    tech:["React", "HTML", "CSS", "JavaScript"],
+    image:cinderellaImg,
+    github: "https://github.com/Birana19/Cinderella"
   }
   
 ];
