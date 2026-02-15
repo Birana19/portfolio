@@ -5,7 +5,7 @@ export const education = [
     },
     {
         university: "Sri Lankan Institute of Information Technology",
-        degree: "BSc (Hons) in Information Technology Specializing Software Engineering",
+        degree: "BSc(Hons) in Information Technology Specializing Software Engineering",
         period: "2023 - Present"
     }
 ];
